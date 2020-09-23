@@ -88,35 +88,4 @@ public class ComputeController {
 		}
 	}
 	
-	
-//	
-//	@RequestMapping(value="/createTable",method=RequestMethod.GET)
-//	public void createTable() {
-//		
-//	}
-//	
-//	@RequestMapping(value="/createTable",method=RequestMethod.GET)
-//	public void createTable() {
-//		
-//	}
-	
-//	Connection con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","system","oracle");  
-//
-//	try {
-//		ArrayList<String> planetList = readexcelObj.getPlanetList(0);
-//		ArrayList<String> routetList = readexcelObj.getRoutesList(1);
-//		ArrayList<String> trafficList = readexcelObj.getTrafficList(2);
-//		planetList.remove(0);
-//		routetList.remove(0);
-//		trafficList.remove(0);
-//		for(String line: planetList){
-//			String[] splited = line.split("\\s+");
-//			   String updateStatement = "INSERT INTO planet (name, node) VALUES ( ?,?);";
-//			   PreparedStatement record = con.prepareStatement(updateStatement);
-//			   record.setString(1, splited[0]);
-//			   record.setString(2, splited[1]);
-//		
-//			jdbcTemplate.execute(record);
-//
-//		}
 }
